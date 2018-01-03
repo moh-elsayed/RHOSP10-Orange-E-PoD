@@ -1,0 +1,104 @@
+{
+        "nodes": [{
+                        "mac": [
+                                "18:66:DA:E6:D5:80"
+                        ],
+                        "name": "cont00",
+                        "pm_type": "pxe_ipmitool",
+                        "pm_user": "root",
+                        "pm_password": "calvin",
+                        "pm_addr": "10.10.10.6",
+                        "capabilities":"profile:control"
+                }, {
+                        "mac": [
+                                "18:66:DA:E6:D5:D8"
+                        ],
+                        "name": "cont01",
+                        "pm_type": "pxe_ipmitool",
+                        "pm_user": "root",
+                        "pm_password": "calvin",
+                        "pm_addr": "10.10.10.7",
+                        "capabilities":"profile:control"
+                }, {
+                        "mac": [
+                                "18:66:DA:E6:D0:28"
+                        ],
+                        "name": "cont02",
+                        "pm_type": "pxe_ipmitool",
+                        "pm_user": "root",
+                        "pm_password": "calvin",
+                        "pm_addr": "10.10.10.8",
+                        "capabilities":"profile:control"
+                }, {
+                        "mac": [
+                                "24:6E:96:2C:92:44"
+                        ],
+                        "name": "Hcomp00",
+                        "pm_type": "pxe_ipmitool",
+                        "pm_user": "root",
+                        "pm_password": "calvin",
+                        "pm_addr": "10.10.10.9",
+                        "capabilities":"profile:ceph-compute"
+                }, {
+                        "mac": [
+                                "24:6E:96:2C:8C:84"
+                        ],
+                        "name": "Hcomp01",
+                        "pm_type": "pxe_ipmitool",
+                        "pm_user": "root",
+                        "pm_password": "calvin",
+                        "pm_addr": "10.10.10.10",
+                        "capabilities":"profile:ceph-compute"
+                }, {
+                        "mac": [
+                                "24:6E:96:2C:8C:EC"
+                        ],
+                        "name": "Hcomp02",
+                        "pm_type": "pxe_ipmitool",
+                        "pm_user": "root",
+                        "pm_password": "calvin",
+                        "pm_addr": "10.10.10.11",
+                        "capabilities":"profile:ceph-compute"
+                }, {
+                        "mac": [
+                                "24:6E:96:2C:8D:44"
+                        ],
+                        "name": "Hcomp03",
+                        "pm_type": "pxe_ipmitool",
+                        "pm_user": "root",
+                        "pm_password": "calvin",
+                        "pm_addr": "10.10.10.12",
+                        "capabilities":"profile:ceph-compute"
+                }, {
+                        "mac": [
+                                "24:6E:96:2C:8E:CC"
+                        ],
+                        "name": "Hcomp04",
+                        "pm_type": "pxe_ipmitool",
+                        "pm_user": "root",
+                        "pm_password": "calvin",
+                        "pm_addr": "10.10.10.13",
+                        "capabilities":"profile:ceph-compute"
+                }, {
+                        "mac": [
+                                "24:6E:96:2C:8F:24"
+                        ],
+                        "name": "Hcomp05",
+                        "pm_type": "pxe_ipmitool",
+                        "pm_user": "root",
+                        "pm_password": "calvin",
+                        "pm_addr": "10.10.10.14",
+                        "capabilities":"profile:ceph-compute"
+                }, {
+                        "mac": [
+                                "24:6E:96:2C:8E:7C"
+                        ],
+                        "name": "Hcomp06",
+                        "pm_type": "pxe_ipmitool",
+                        "pm_user": "root",
+                        "pm_password": "calvin",
+                        "pm_addr": "10.10.10.15",
+                        "capabilities":"profile:ceph-compute"
+                }
+        ]
+}

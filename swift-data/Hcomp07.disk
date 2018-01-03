@@ -1,0 +1,24 @@
+[
+  {
+    "size": 1099511627776,
+    "rotational": true,
+    "vendor": "DELL",
+    "name": "/dev/sda",
+    "wwn_vendor_extension": "0x21de2f9219a69e4d",
+    "wwn_with_extension": "0x61866da075b7c40021de2f9219a69e4d",
+    "model": "PERC H730 Mini",
+    "wwn": "0x61866da075b7c400",
+    "serial": "61866da075b7c40021de2f9219a69e4d"
+  },
+  {
+    "size": 64023257088,
+    "rotational": false,
+    "vendor": "ATA",
+    "name": "/dev/sdb",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": null,
+    "model": "SATADOM-ML 3SE",
+    "wwn": null,
+    "serial": "20160712AA117815562F"
+  }
+]
