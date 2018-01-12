@@ -13,69 +13,69 @@ permit_ssh()
 ## update the hosts file with the local repo IP
 update_hosts()
 {
-  echo "10.10.11.9      rhrepo.nfvlab.local rhrepo" >> /etc/hosts
+  echo "192.0.2.9       rhnrepo.enfvlab.local   rhnrepo" >> /etc/hosts
 }
 
 localRepo()
 {
 cat  > /etc/yum.repos.d/localrepo.repo <<- "EOF"
 [Local-server-extras-rpms]
-name=Orange rhel-7-extras
-baseurl=http://rhrepo.nfvlab.local/repo/rhel-7-server-extras-rpms
+name=DSC-Local rhel-7-extras
+baseurl=http://rhnrepo.enfvlab.local/repo/rhel-7-server-extras-rpms
 enabled=1
 gpgcheck=0
 
 [Local-server-openstack10]
-name=Orange Openstack10
-baseurl=http://rhrepo.nfvlab.local/repo/rhel-7-server-openstack-10-rpms
+name=DSC-Local Openstack10
+baseurl=http://rhnrepo.enfvlab.local/repo/rhel-7-server-openstack-10-rpms
 enabled=1
 gpgcheck=0
 
 [Local-server-nfv]
-name=Orange NFV
-baseurl=http://rhrepo.nfvlab.local/repo/rhel-7-server-nfv-rpms
+name=DSC-Local NFV
+baseurl=http://rhnrepo.enfvlab.local/repo/rhel-7-server-nfv-rpms
 enabled=1
 gpgcheck=0
 
 [Local-server-ceph-2-mon]
-name=Orange ceph-2-mon
-baseurl=http://rhrepo.nfvlab.local/repo/rhel-7-server-rhceph-2-mon-rpms
+name=DSC-Local ceph-2-mon
+baseurl=http://rhnrepo.enfvlab.local/repo/rhel-7-server-rhceph-2-mon-rpms
 enabled=1
 gpgcheck=0
 
 [Local-server-ceph-2-tools]
-name=Orange ceph-2-tools
-baseurl=http://rhrepo.nfvlab.local/repo/rhel-7-server-rhceph-2-tools-rpms
+name=DSC-Local ceph-2-tools
+baseurl=http://rhnrepo.enfvlab.local/repo/rhel-7-server-rhceph-2-tools-rpms
 enabled=1
 gpgcheck=0
 
 [Local-server-rh-common]
-name=Orange server-rh-common
-baseurl=http://rhrepo.nfvlab.local/repo/rhel-7-server-rh-common-rpms
+name=DSC-Local server-rh-common
+baseurl=http://rhnrepo.enfvlab.local/repo/rhel-7-server-rh-common-rpms
 enabled=1
 gpgcheck=0
 
 [Local-rhel-7-server]
-name=Orange rhel-7-rpm
-baseurl=http://rhrepo.nfvlab.local/repo/rhel-7-server-rpms
+name=DSC-Local rhel-7-rpm
+baseurl=http://rhnrepo.enfvlab.local/repo/rhel-7-server-rpms
 enabled=1
 gpgcheck=0
 
 [Local-satellite-tools]
-name=Orange satellite-tools
-baseurl=http://rhrepo.nfvlab.local/repo/rhel-7-server-satellite-tools-6.2-rpms
+name=DSC-Local satellite-tools
+baseurl=http://rhnrepo.enfvlab.local/repo/rhel-7-server-satellite-tools-6.2-rpms
 enabled=1
 gpgcheck=0
 
 [Local-ha-for-rhel-7-server]
-name=Orange ha-for-rhel-7-server
-baseurl=http://rhrepo.nfvlab.local/repo/rhel-ha-for-rhel-7-server-rpms
+name=DSC-Local ha-for-rhel-7-server
+baseurl=http://rhnrepo.enfvlab.local/repo/rhel-ha-for-rhel-7-server-rpms
 enabled=1
 gpgcheck=0
 
-[Local-OSP10-Devtools]
-name=Orange OPS10 DEVTOOLS
-baseurl=http://rhrepo.nfvlab.local/repo/rhel-7-server-openstack-10-devtools-rpms
+[Local-openstack10-devtools]
+name=DSC-Local openstack10-devtools
+baseurl=http://rhnrepo.enfvlab.local/repo/rhel-7-server-openstack-10-devtools-rpms
 enabled=1
 gpgcheck=0
 
@@ -95,7 +95,7 @@ Install_tuna()
 set_rootpw()
 {
   # Update the root password to something we know
-  echo changeme | sudo passwd root --stdin
+  echo Dell@1234 | sudo passwd root --stdin
 }
 
 rp_filter_accept()

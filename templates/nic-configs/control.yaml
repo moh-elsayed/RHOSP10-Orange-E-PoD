@@ -5,6 +5,10 @@ description: >
   for the controller role.
 
 parameters:
+  BondInterfaceOvsOptions:
+    default: "mode=802.3ad lacp_rate=fast updelay=1000 miimon=100"
+    description: BondingInfo
+    type: string
   ControlPlaneIp:
     default: ''
     description: IP address/subnet on the ctlplane network
@@ -128,30 +132,30 @@ resources:
                   type: vlan
                   vlan_id: {get_param: TenantNetworkVlanID}
                   addresses:
-                  -
-                    ip_netmask: {get_param: TenantIpSubnet}
+                    -
+                      ip_netmask: {get_param: TenantIpSubnet}
                 -
                   type: vlan
                   vlan_id: {get_param: StorageNetworkVlanID}
                   addresses:
-                  -
-                    ip_netmask: {get_param: StorageIpSubnet}
+                    -
+                      ip_netmask: {get_param: StorageIpSubnet}
                 -
                   type: vlan
                   vlan_id: {get_param: StorageMgmtNetworkVlanID}
                   addresses:
-                  -
-                    ip_netmask: {get_param: StorageMgmtIpSubnet}
+                    -
+                      ip_netmask: {get_param: StorageMgmtIpSubnet}
                 -
                   type: vlan
                   vlan_id: {get_param: ExternalNetworkVlanID}
                   addresses:
-                  -
-                    ip_netmask: {get_param: ExternalIpSubnet}
+                    -
+                      ip_netmask: {get_param: ExternalIpSubnet}
                   routes:
-                  -
-                    default: true
-                    next_hop: {get_param: ExternalInterfaceDefaultRoute}
+                    -
+                      default: true
+                      next_hop: {get_param: ExternalInterfaceDefaultRoute}
             -
               type: ovs_bridge
               name: br-nfv

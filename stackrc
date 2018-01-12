@@ -4,7 +4,7 @@ NOVA_VERSION=1.1
 export NOVA_VERSION
 OS_PASSWORD=$(sudo hiera admin_password)
 export OS_PASSWORD
-OS_AUTH_URL=http://192.0.2.10:5000/v2.0
+OS_AUTH_URL=http://192.0.2.4:5000/v2.0
 export OS_AUTH_URL
 OS_USERNAME=admin
 OS_TENANT_NAME=admin

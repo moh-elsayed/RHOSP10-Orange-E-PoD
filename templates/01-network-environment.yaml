@@ -4,8 +4,8 @@ resource_registry:
   # Network Interface templates to use (these files must exist)
   OS::TripleO::CephCompute::Net::SoftwareConfig:
         /home/stack/templates/nic-configs/computehci.yaml
-  #OS::TripleO::Compute::Net::SoftwareConfig:
-  #      /home/stack/templates/nic-configs/compute.yaml
+  OS::TripleO::Compute::Net::SoftwareConfig:
+        /home/stack/templates/nic-configs/compute.yaml
   OS::TripleO::Controller::Net::SoftwareConfig:
         /home/stack/templates/nic-configs/control.yaml
 
@@ -40,7 +40,7 @@ parameter_defaults:
   StorageMgmtAllocationPools: [{'start': '10.10.15.111', 'end': '10.10.15.200'}]
   TenantAllocationPools: [{'start': '10.10.13.111', 'end': '10.10.13.200'}]
   # Leave room if the external network is also used for floating IPs
-  ExternalAllocationPools: [{'start': '110.60.163.71', 'end': '10.60.163.90'}]
+  ExternalAllocationPools: [{'start': '10.60.163.71', 'end': '10.60.163.90'}]
   # Gateway router for the external network
   ExternalInterfaceDefaultRoute: 10.60.163.65
   # Uncomment if using the Management Network (see network-management.yaml)
@@ -66,7 +66,6 @@ parameter_defaults:
   # BondInterfaceOvsOptions: "bond_mode=active-backup"
   # BondInterfaceOvsOptions: "mode=802.3ad lacp_rate=[fast|slow] updelay=1000 miimon=100"
   BondInterfaceOvsOptions: "mode=802.3ad lacp_rate=fast updelay=1000 miimon=100"
-  #BondInterfaceOvsOptions: "bond_mode=balance-tcp lacp=active other-config:lacp-fallback-ab=true"
 
 
   # Predictable VIPs
@@ -109,21 +108,23 @@ parameter_defaults:
   # [Moe] Pair the sibling threads together.
   #NovaVcpuPinSet: "'4,6,8,10,1,3,5,7,9,11,16,18,20,22,13,15,17,19,21,23'"
   # NovaVcpuPinSetHCI: "'4,6,8,10,12,14,16,18,20,22,24,26,1,3,5,7,9,11,13,15,17,19,21,23,25,27,32,34,36,38,40,42,44,46,48,50,52,54,29,31,33,35,37,39,41,43,45,47,49,51,53,55'"
-  NovaVcpuPinSet: "'4,6,8,10,12,14,16,18,20,22,24,26,1,3,5,7,9,11,13,15,17,19,21,23,25,27,32,34,36,38,40,42,44,46,48,50,52,54,29,31,33,35,37,39,41,43,45,47,49,51,53,55'"
+  #NovaVcpuPinSet: "'4,6,8,10,12,14,16,18,20,22,24,26,1,3,5,7,9,11,13,15,17,19,21,23,25,27,32,34,36,38,40,42,44,46,48,50,52,54,29,31,33,35,37,39,41,43,45,47,49,51,53,55'"
+  NovaVcpuPinSet: ['2-27,30-55']
 
   ## HostIsolatedCpuList
   ##########
   # A set of CPU cores isolated from the host processes. This parameter is used as the isolated_cores value in the cpu-partitioning-variable.conf file for the tuned-profiles-cpu-partitioning component.
   # [Moe] Match the list of cores in NeutronDpdkCoreList and NovaVcpuPinSet.
   # [Moe] Pair the sibling threads together.
-  HostIsolatedCoreList: "'4,6,8,10,12,14,16,18,20,22,24,26,1,3,5,7,9,11,13,15,17,19,21,23,25,27,32,34,36,38,40,42,44,46,48,50,52,54,29,31,33,35,37,39,41,43,45,47,49,51,53,55'"
+  #HostIsolatedCoreList: "'4,6,8,10,12,14,16,18,20,22,24,26,1,3,5,7,9,11,13,15,17,19,21,23,25,27,32,34,36,38,40,42,44,46,48,50,52,54,29,31,33,35,37,39,41,43,45,47,49,51,53,55'"
+  HostIsolatedCoreList: ['2-27,30-55']
 
   ## HostCpusList
   ##########
   # Provides CPU cores for non data path OVS-DPDK processes, such as handler and revalidator threads. This parameter has no impact on overall data path performance on multi-NUMA node hardware. This parameter is used for the dpdk-lcore-mask value in Open vSwitch, and these cores are shared with the host.
   # [Moe] Allocate the first physical core (and sibling thread) from each NUMA node (even if the NUMA node has no associated DPDK NIC).
   # [Moe] These cores must be mutually exclusive from the list of cores in NeutronDpdkCoreList and NovaVcpuPinSet.
-  HostCpusList: "0,28,2,30"
+  HostCpusList: "'0,28,2,30'"
   
   ###################
   # Memory Parameters:

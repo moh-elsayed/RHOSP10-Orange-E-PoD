@@ -77,11 +77,27 @@ parameter_defaults:
   #      '/dev/sdd': {}
   ExtraConfig:
     ceph::profile::params::osds:
-        '/dev/sdb': 
+        '/dev/sdc':
           journal: '/dev/sda'
-        '/dev/sdc': 
+        '/dev/sdd':
           journal: '/dev/sda'
-        '/dev/sdd': 
+        '/dev/sde':
           journal: '/dev/sda'
-        '/dev/sde': 
+        '/dev/sdf':
           journal: '/dev/sda'
+        '/dev/sdg':
+          journal: '/dev/sda'
+        '/dev/sdh':
+          journal: '/dev/sda'
+        '/dev/sdi':
+          journal: '/dev/sdb'
+        '/dev/sdj':
+          journal: '/dev/sdb'
+        '/dev/sdk':
+          journal: '/dev/sdb'
+        '/dev/sdl':
+          journal: '/dev/sdb'
+        '/dev/sdm':
+          journal: '/dev/sdb'
+        '/dev/sdn':
+          journal: '/dev/sdb'

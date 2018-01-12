@@ -63,42 +63,42 @@
                         "mac": [
                                 "24:6E:96:2C:8D:44"
                         ],
-                        "name": "Hcomp03",
+                        "name": "comp03",
                         "pm_type": "pxe_ipmitool",
                         "pm_user": "root",
                         "pm_password": "calvin",
                         "pm_addr": "10.10.10.12",
-                        "capabilities":"profile:ceph-compute"
+                        "capabilities":"profile:compute"
                 }, {
                         "mac": [
                                 "24:6E:96:2C:8E:CC"
                         ],
-                        "name": "Hcomp04",
+                        "name": "comp04",
                         "pm_type": "pxe_ipmitool",
                         "pm_user": "root",
                         "pm_password": "calvin",
                         "pm_addr": "10.10.10.13",
-                        "capabilities":"profile:ceph-compute"
+                        "capabilities":"profile:compute"
                 }, {
                         "mac": [
                                 "24:6E:96:2C:8F:24"
                         ],
-                        "name": "Hcomp05",
+                        "name": "comp05",
                         "pm_type": "pxe_ipmitool",
                         "pm_user": "root",
                         "pm_password": "calvin",
                         "pm_addr": "10.10.10.14",
-                        "capabilities":"profile:ceph-compute"
+                        "capabilities":"profile:compute"
                 }, {
                         "mac": [
                                 "24:6E:96:2C:8E:7C"
                         ],
-                        "name": "Hcomp06",
+                        "name": "comp06",
                         "pm_type": "pxe_ipmitool",
                         "pm_user": "root",
                         "pm_password": "calvin",
                         "pm_addr": "10.10.10.15",
-                        "capabilities":"profile:ceph-compute"
+                        "capabilities":"profile:compute"
                 }
         ]
 }

@@ -1,4 +1,4 @@
-NODE: cont01
+NODE: cont00
 ============================
 [
   {
@@ -33,21 +33,10 @@ NODE: cont01
     "model": "PERC H730 Mini",
     "wwn": "0x61866da0663b6700",
     "serial": "61866da0663b670021de20f448247ae1"
-  },
-  {
-    "size": 16022241280,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdd",
-    "wwn_vendor_extension": null,
-    "wwn_with_extension": null,
-    "model": "IDSDM",
-    "wwn": null,
-    "serial": "012345678901"
   }
 ]
 ---------------------------
-NODE: cont02
+NODE: cont01
 ============================
 [
   {
@@ -82,21 +71,10 @@ NODE: cont02
     "model": "PERC H730 Mini",
     "wwn": "0x61866da0663f8300",
     "serial": "61866da0663f830021de2885b7bebbea"
-  },
-  {
-    "size": 16022241280,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdd",
-    "wwn_vendor_extension": null,
-    "wwn_with_extension": null,
-    "model": "IDSDM",
-    "wwn": null,
-    "serial": "012345678901"
   }
 ]
 ---------------------------
-NODE: cont03
+NODE: cont02
 ============================
 [
   {
@@ -131,17 +109,264 @@ NODE: cont03
     "model": "PERC H730 Mini",
     "wwn": "0x61866da0663b1700",
     "serial": "61866da0663b170021de2742bc36c45e"
+  }
+]
+---------------------------
+NODE: Hcomp00
+============================
+[
+  {
+    "size": 800166076416,
+    "rotational": false,
+    "vendor": "TOSHIBA",
+    "name": "/dev/sda",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x500003972c891311",
+    "model": "PX04SMB080",
+    "wwn": "0x500003972c891311",
+    "serial": "500003972c891311"
   },
   {
-    "size": 16022241280,
+    "size": 800166076416,
+    "rotational": false,
+    "vendor": "TOSHIBA",
+    "name": "/dev/sdb",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x500003972c891319",
+    "model": "PX04SMB080",
+    "wwn": "0x500003972c891319",
+    "serial": "500003972c891319"
+  },
+  {
+    "size": 1200243695616,
     "rotational": true,
-    "vendor": "DELL",
+    "vendor": "HGST",
+    "name": "/dev/sdc",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0800b9ea4",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0800b9ea4",
+    "serial": "5000cca0800b9ea4"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
     "name": "/dev/sdd",
     "wwn_vendor_extension": null,
-    "wwn_with_extension": null,
-    "model": "IDSDM",
-    "wwn": null,
-    "serial": "012345678901"
+    "wwn_with_extension": "0x5000cca080191468",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca080191468",
+    "serial": "5000cca080191468"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sde",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a1e4c",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a1e4c",
+    "serial": "5000cca0801a1e4c"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdf",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0800ef3f0",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0800ef3f0",
+    "serial": "5000cca0800ef3f0"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdg",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019ddac",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019ddac",
+    "serial": "5000cca08019ddac"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdh",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019b1ec",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019b1ec",
+    "serial": "5000cca08019b1ec"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdi",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019a6a0",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019a6a0",
+    "serial": "5000cca08019a6a0"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdj",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019bedc",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019bedc",
+    "serial": "5000cca08019bedc"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdk",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019a66c",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019a66c",
+    "serial": "5000cca08019a66c"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdl",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019a354",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019a354",
+    "serial": "5000cca08019a354"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdm",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0800b9dec",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0800b9dec",
+    "serial": "5000cca0800b9dec"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdn",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019a2cc",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019a2cc",
+    "serial": "5000cca08019a2cc"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdo",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a1c20",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a1c20",
+    "serial": "5000cca0801a1c20"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdp",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0800ef428",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0800ef428",
+    "serial": "5000cca0800ef428"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdq",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801990a0",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801990a0",
+    "serial": "5000cca0801990a0"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdr",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019a2f4",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019a2f4",
+    "serial": "5000cca08019a2f4"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sds",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0800b9e98",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0800b9e98",
+    "serial": "5000cca0800b9e98"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdt",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019c010",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019c010",
+    "serial": "5000cca08019c010"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdu",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a1c54",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a1c54",
+    "serial": "5000cca0801a1c54"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdv",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019900c",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019900c",
+    "serial": "5000cca08019900c"
+  },
+  {
+    "size": 966367641600,
+    "rotational": true,
+    "vendor": "DELL",
+    "name": "/dev/sdw",
+    "wwn_vendor_extension": "0x21e0e60c513049ee",
+    "wwn_with_extension": "0x61866da075b8c20021e0e60c513049ee",
+    "model": "PERC H730 Mini",
+    "wwn": "0x61866da075b8c200",
+    "serial": "61866da075b8c20021e0e60c513049ee"
   }
 ]
 ---------------------------
@@ -149,246 +374,257 @@ NODE: Hcomp01
 ============================
 [
   {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sda",
-    "wwn_vendor_extension": "0x21de295dce169547",
-    "wwn_with_extension": "0x61866da075b8c20021de295dce169547",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c20021de295dce169547"
-  },
-  {
-    "size": 1099511627776,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdb",
-    "wwn_vendor_extension": "0x21de2ae9e5b55672",
-    "wwn_with_extension": "0x61866da075b8c20021de2ae9e5b55672",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c20021de2ae9e5b55672"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdc",
-    "wwn_vendor_extension": "0x1f9ce32e20d9220c",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce32e20d9220c",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce32e20d9220c"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdd",
-    "wwn_vendor_extension": "0x1f9ce33d21c7f9db",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce33d21c7f9db",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce33d21c7f9db"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sde",
-    "wwn_vendor_extension": "0x1f9ce34c22a88f3d",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce34c22a88f3d",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce34c22a88f3d"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdf",
-    "wwn_vendor_extension": "0x1f9ce35b23933cf6",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce35b23933cf6",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce35b23933cf6"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdg",
-    "wwn_vendor_extension": "0x1f9ce36b247efddd",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce36b247efddd",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce36b247efddd"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdh",
-    "wwn_vendor_extension": "0x1f9ce37b25709ec6",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce37b25709ec6",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce37b25709ec6"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdi",
-    "wwn_vendor_extension": "0x1f9ce38b266e006f",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce38b266e006f",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce38b266e006f"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdj",
-    "wwn_vendor_extension": "0x1f9ce39c276ef806",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce39c276ef806",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce39c276ef806"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdk",
-    "wwn_vendor_extension": "0x1f9ce3ad28748694",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce3ad28748694",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce3ad28748694"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdl",
-    "wwn_vendor_extension": "0x1f9ce3be2975777e",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce3be2975777e",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce3be2975777e"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdm",
-    "wwn_vendor_extension": "0x1f9ce3d12a8d9c9a",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce3d12a8d9c9a",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce3d12a8d9c9a"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdn",
-    "wwn_vendor_extension": "0x1f9ce3e22b9c5a2f",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce3e22b9c5a2f",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce3e22b9c5a2f"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdo",
-    "wwn_vendor_extension": "0x1f9ce3f52cb3ffca",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce3f52cb3ffca",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce3f52cb3ffca"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdp",
-    "wwn_vendor_extension": "0x1f9ce4072dc53300",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce4072dc53300",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce4072dc53300"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdq",
-    "wwn_vendor_extension": "0x1f9ce41a2ef5b698",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce41a2ef5b698",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce41a2ef5b698"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdr",
-    "wwn_vendor_extension": "0x1f9ce42e30189734",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce42e30189734",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce42e30189734"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sds",
-    "wwn_vendor_extension": "0x1f9ce4413142520c",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce4413142520c",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce4413142520c"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdt",
-    "wwn_vendor_extension": "0x1f9ce4563280e210",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce4563280e210",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce4563280e210"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdu",
-    "wwn_vendor_extension": "0x1f9ce46a33b31b23",
-    "wwn_with_extension": "0x61866da075b8c2001f9ce46a33b31b23",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8c200",
-    "serial": "61866da075b8c2001f9ce46a33b31b23"
-  },
-  {
-    "size": 64023257088,
+    "size": 800166076416,
     "rotational": false,
-    "vendor": "ATA",
+    "vendor": "TOSHIBA",
+    "name": "/dev/sda",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x500003972c891301",
+    "model": "PX04SMB080",
+    "wwn": "0x500003972c891301",
+    "serial": "500003972c891301"
+  },
+  {
+    "size": 800166076416,
+    "rotational": false,
+    "vendor": "TOSHIBA",
+    "name": "/dev/sdb",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x500003972c891329",
+    "model": "PX04SMB080",
+    "wwn": "0x500003972c891329",
+    "serial": "500003972c891329"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdc",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a1df4",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a1df4",
+    "serial": "5000cca0801a1df4"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdd",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019d474",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019d474",
+    "serial": "5000cca08019d474"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sde",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019cb38",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019cb38",
+    "serial": "5000cca08019cb38"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdf",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019cb04",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019cb04",
+    "serial": "5000cca08019cb04"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdg",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019d2b4",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019d2b4",
+    "serial": "5000cca08019d2b4"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdh",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019a52c",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019a52c",
+    "serial": "5000cca08019a52c"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdi",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a1364",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a1364",
+    "serial": "5000cca0801a1364"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdj",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a10e0",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a10e0",
+    "serial": "5000cca0801a10e0"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdk",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801914d8",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801914d8",
+    "serial": "5000cca0801914d8"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdl",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a1208",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a1208",
+    "serial": "5000cca0801a1208"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdm",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019a2bc",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019a2bc",
+    "serial": "5000cca08019a2bc"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdn",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a1df8",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a1df8",
+    "serial": "5000cca0801a1df8"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdo",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a1070",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a1070",
+    "serial": "5000cca0801a1070"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdp",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca080198aac",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca080198aac",
+    "serial": "5000cca080198aac"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdq",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08018de4c",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08018de4c",
+    "serial": "5000cca08018de4c"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdr",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a0fd4",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a0fd4",
+    "serial": "5000cca0801a0fd4"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sds",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca080198fd4",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca080198fd4",
+    "serial": "5000cca080198fd4"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdt",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a1054",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a1054",
+    "serial": "5000cca0801a1054"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdu",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019d0b8",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019d0b8",
+    "serial": "5000cca08019d0b8"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
     "name": "/dev/sdv",
     "wwn_vendor_extension": null,
-    "wwn_with_extension": null,
-    "model": "SATADOM-ML 3SE",
-    "wwn": null,
-    "serial": "20160712AA117811430E"
+    "wwn_with_extension": "0x5000cca08019f038",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019f038",
+    "serial": "5000cca08019f038"
+  },
+  {
+    "size": 966367641600,
+    "rotational": true,
+    "vendor": "DELL",
+    "name": "/dev/sdw",
+    "wwn_vendor_extension": "0x21e0e7cf448b233a",
+    "wwn_with_extension": "0x61866da075b8cc0021e0e7cf448b233a",
+    "model": "PERC H730 Mini",
+    "wwn": "0x61866da075b8cc00",
+    "serial": "61866da075b8cc0021e0e7cf448b233a"
   }
 ]
 ---------------------------
@@ -396,1261 +632,1278 @@ NODE: Hcomp02
 ============================
 [
   {
-    "size": 1099511627776,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sda",
-    "wwn_vendor_extension": "0x21de2e66e974d46c",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e66e974d46c",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e66e974d46c"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdb",
-    "wwn_vendor_extension": "0x21de2e74ea3e8bb8",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea3e8bb8",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea3e8bb8"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdc",
-    "wwn_vendor_extension": "0x21de2e74ea3ea76e",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea3ea76e",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea3ea76e"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdd",
-    "wwn_vendor_extension": "0x21de2e74ea3ec35a",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea3ec35a",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea3ec35a"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sde",
-    "wwn_vendor_extension": "0x21de2e74ea3edf5f",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea3edf5f",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea3edf5f"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdf",
-    "wwn_vendor_extension": "0x21de2e74ea3efc0c",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea3efc0c",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea3efc0c"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdg",
-    "wwn_vendor_extension": "0x21de2e74ea3f17f3",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea3f17f3",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea3f17f3"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdh",
-    "wwn_vendor_extension": "0x21de2e74ea3f345f",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea3f345f",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea3f345f"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdi",
-    "wwn_vendor_extension": "0x21de2e74ea3f5175",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea3f5175",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea3f5175"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdj",
-    "wwn_vendor_extension": "0x21de2e74ea3f8e62",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea3f8e62",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea3f8e62"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdk",
-    "wwn_vendor_extension": "0x21de2e74ea3faa4a",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea3faa4a",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea3faa4a"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdl",
-    "wwn_vendor_extension": "0x21de2e74ea3fc5e0",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea3fc5e0",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea3fc5e0"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdm",
-    "wwn_vendor_extension": "0x21de2e74ea3fe1e1",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea3fe1e1",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea3fe1e1"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdn",
-    "wwn_vendor_extension": "0x21de2e74ea3ffde4",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea3ffde4",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea3ffde4"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdo",
-    "wwn_vendor_extension": "0x21de2e74ea4038b0",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea4038b0",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea4038b0"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdp",
-    "wwn_vendor_extension": "0x21de2e74ea405521",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea405521",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea405521"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdq",
-    "wwn_vendor_extension": "0x21de2e74ea4070f9",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea4070f9",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea4070f9"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdr",
-    "wwn_vendor_extension": "0x21de2e74ea408d0e",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea408d0e",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea408d0e"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sds",
-    "wwn_vendor_extension": "0x21de2e74ea40da56",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea40da56",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea40da56"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdt",
-    "wwn_vendor_extension": "0x21de2e74ea4122ed",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea4122ed",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea4122ed"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdu",
-    "wwn_vendor_extension": "0x21de2e74ea4167ec",
-    "wwn_with_extension": "0x61866da075b8cc0021de2e74ea4167ec",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8cc00",
-    "serial": "61866da075b8cc0021de2e74ea4167ec"
-  },
-  {
-    "size": 64023257088,
+    "size": 800166076416,
     "rotational": false,
-    "vendor": "ATA",
+    "vendor": "TOSHIBA",
+    "name": "/dev/sda",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x500003972c8912ed",
+    "model": "PX04SMB080",
+    "wwn": "0x500003972c8912ed",
+    "serial": "500003972c8912ed"
+  },
+  {
+    "size": 800166076416,
+    "rotational": false,
+    "vendor": "TOSHIBA",
+    "name": "/dev/sdb",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x500003972c891545",
+    "model": "PX04SMB080",
+    "wwn": "0x500003972c891545",
+    "serial": "500003972c891545"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdc",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019ddb0",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019ddb0",
+    "serial": "5000cca08019ddb0"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdd",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca080196054",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca080196054",
+    "serial": "5000cca080196054"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sde",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019ccb4",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019ccb4",
+    "serial": "5000cca08019ccb4"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdf",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019d3d8",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019d3d8",
+    "serial": "5000cca08019d3d8"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdg",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019d540",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019d540",
+    "serial": "5000cca08019d540"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdh",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a15bc",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a15bc",
+    "serial": "5000cca0801a15bc"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdi",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019d6c4",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019d6c4",
+    "serial": "5000cca08019d6c4"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdj",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a2028",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a2028",
+    "serial": "5000cca0801a2028"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdk",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019c1c4",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019c1c4",
+    "serial": "5000cca08019c1c4"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdl",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019c1b4",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019c1b4",
+    "serial": "5000cca08019c1b4"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdm",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019e518",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019e518",
+    "serial": "5000cca08019e518"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdn",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019dec8",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019dec8",
+    "serial": "5000cca08019dec8"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdo",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019dd48",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019dd48",
+    "serial": "5000cca08019dd48"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdp",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a1d08",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a1d08",
+    "serial": "5000cca0801a1d08"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdq",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019d1b8",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019d1b8",
+    "serial": "5000cca08019d1b8"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdr",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019d2e4",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019d2e4",
+    "serial": "5000cca08019d2e4"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sds",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019c1d0",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019c1d0",
+    "serial": "5000cca08019c1d0"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdt",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019c5d8",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019c5d8",
+    "serial": "5000cca08019c5d8"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdu",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019d59c",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019d59c",
+    "serial": "5000cca08019d59c"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
     "name": "/dev/sdv",
     "wwn_vendor_extension": null,
-    "wwn_with_extension": null,
-    "model": "SATADOM-ML 3SE",
-    "wwn": null,
-    "serial": "20160712AA11781143A1"
+    "wwn_with_extension": "0x5000cca08019cb80",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019cb80",
+    "serial": "5000cca08019cb80"
+  },
+  {
+    "size": 966367641600,
+    "rotational": true,
+    "vendor": "DELL",
+    "name": "/dev/sdw",
+    "wwn_vendor_extension": "0x21e0e72f5ce43b0c",
+    "wwn_with_extension": "0x61866da075b8ca0021e0e72f5ce43b0c",
+    "model": "PERC H730 Mini",
+    "wwn": "0x61866da075b8ca00",
+    "serial": "61866da075b8ca0021e0e72f5ce43b0c"
   }
 ]
 ---------------------------
-NODE: Hcomp03
+NODE: comp03
 ============================
 [
   {
-    "size": 1099511627776,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sda",
-    "wwn_vendor_extension": "0x21de2d29f60a4417",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d29f60a4417",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d29f60a4417"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdb",
-    "wwn_vendor_extension": "0x21de2d37f6d491e3",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d491e3",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d491e3"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdc",
-    "wwn_vendor_extension": "0x21de2d37f6d4ad81",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d4ad81",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d4ad81"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdd",
-    "wwn_vendor_extension": "0x21de2d37f6d4c957",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d4c957",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d4c957"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sde",
-    "wwn_vendor_extension": "0x21de2d37f6d4fa09",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d4fa09",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d4fa09"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdf",
-    "wwn_vendor_extension": "0x21de2d37f6d52e62",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d52e62",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d52e62"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdg",
-    "wwn_vendor_extension": "0x21de2d37f6d54a0c",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d54a0c",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d54a0c"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdh",
-    "wwn_vendor_extension": "0x21de2d37f6d565d5",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d565d5",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d565d5"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdi",
-    "wwn_vendor_extension": "0x21de2d37f6d5815e",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d5815e",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d5815e"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdj",
-    "wwn_vendor_extension": "0x21de2d37f6d5bb8c",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d5bb8c",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d5bb8c"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdk",
-    "wwn_vendor_extension": "0x21de2d37f6d5d6ba",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d5d6ba",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d5d6ba"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdl",
-    "wwn_vendor_extension": "0x21de2d37f6d61f74",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d61f74",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d61f74"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdm",
-    "wwn_vendor_extension": "0x21de2d37f6d65fed",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d65fed",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d65fed"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdn",
-    "wwn_vendor_extension": "0x21de2d37f6d67bad",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d67bad",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d67bad"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdo",
-    "wwn_vendor_extension": "0x21de2d37f6d6bb60",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d6bb60",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d6bb60"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdp",
-    "wwn_vendor_extension": "0x21de2d37f6d6f313",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d6f313",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d6f313"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdq",
-    "wwn_vendor_extension": "0x21de2d37f6d70fb8",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d70fb8",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d70fb8"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdr",
-    "wwn_vendor_extension": "0x21de2d37f6d743f6",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d743f6",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d743f6"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sds",
-    "wwn_vendor_extension": "0x21de2d37f6d79511",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d79511",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d79511"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdt",
-    "wwn_vendor_extension": "0x21de2d37f6d7cdf3",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d7cdf3",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d7cdf3"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdu",
-    "wwn_vendor_extension": "0x21de2d37f6d80a13",
-    "wwn_with_extension": "0x61866da075b8ca0021de2d37f6d80a13",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8ca00",
-    "serial": "61866da075b8ca0021de2d37f6d80a13"
-  },
-  {
-    "size": 64023257088,
+    "size": 800166076416,
     "rotational": false,
-    "vendor": "ATA",
+    "vendor": "TOSHIBA",
+    "name": "/dev/sda",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x500003972c89132d",
+    "model": "PX04SMB080",
+    "wwn": "0x500003972c89132d",
+    "serial": "500003972c89132d"
+  },
+  {
+    "size": 800166076416,
+    "rotational": false,
+    "vendor": "TOSHIBA",
+    "name": "/dev/sdb",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x500003972c8912f5",
+    "model": "PX04SMB080",
+    "wwn": "0x500003972c8912f5",
+    "serial": "500003972c8912f5"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdc",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019dd20",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019dd20",
+    "serial": "5000cca08019dd20"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdd",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801914e4",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801914e4",
+    "serial": "5000cca0801914e4"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sde",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a15b8",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a15b8",
+    "serial": "5000cca0801a15b8"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdf",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019bffc",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019bffc",
+    "serial": "5000cca08019bffc"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdg",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0800ba258",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0800ba258",
+    "serial": "5000cca0800ba258"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdh",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca080194360",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca080194360",
+    "serial": "5000cca080194360"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdi",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019ce68",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019ce68",
+    "serial": "5000cca08019ce68"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdj",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019dcd4",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019dcd4",
+    "serial": "5000cca08019dcd4"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdk",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0800d142c",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0800d142c",
+    "serial": "5000cca0800d142c"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdl",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019d37c",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019d37c",
+    "serial": "5000cca08019d37c"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdm",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0800ba170",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0800ba170",
+    "serial": "5000cca0800ba170"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdn",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019deb8",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019deb8",
+    "serial": "5000cca08019deb8"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdo",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0800ef308",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0800ef308",
+    "serial": "5000cca0800ef308"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdp",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019ce58",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019ce58",
+    "serial": "5000cca08019ce58"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdq",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019cb74",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019cb74",
+    "serial": "5000cca08019cb74"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdr",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca080193f68",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca080193f68",
+    "serial": "5000cca080193f68"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sds",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019cfd4",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019cfd4",
+    "serial": "5000cca08019cfd4"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdt",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019cafc",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019cafc",
+    "serial": "5000cca08019cafc"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdu",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a1e40",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a1e40",
+    "serial": "5000cca0801a1e40"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
     "name": "/dev/sdv",
     "wwn_vendor_extension": null,
-    "wwn_with_extension": null,
-    "model": "SATADOM-ML 3SE",
-    "wwn": null,
-    "serial": "20160818AAAA00000067"
+    "wwn_with_extension": "0x5000cca08019cadc",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019cadc",
+    "serial": "5000cca08019cadc"
+  },
+  {
+    "size": 966367641600,
+    "rotational": true,
+    "vendor": "DELL",
+    "name": "/dev/sdw",
+    "wwn_vendor_extension": "0x2165766839cd385b",
+    "wwn_with_extension": "0x61866da075b8d1002165766839cd385b",
+    "model": "PERC H730 Mini",
+    "wwn": "0x61866da075b8d100",
+    "serial": "61866da075b8d1002165766839cd385b"
   }
 ]
 ---------------------------
-NODE: Hcomp04
+NODE: comp04
 ============================
 [
   {
-    "size": 1099511627776,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sda",
-    "wwn_vendor_extension": "0x2162bfa4028cc0f7",
-    "wwn_with_extension": "0x61866da075b8d1002162bfa4028cc0f7",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfa4028cc0f7"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdb",
-    "wwn_vendor_extension": "0x2162bfb0033eb39b",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb0033eb39b",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb0033eb39b"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdc",
-    "wwn_vendor_extension": "0x2162bfb0033ecfe1",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb0033ecfe1",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb0033ecfe1"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdd",
-    "wwn_vendor_extension": "0x2162bfb0033eebd2",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb0033eebd2",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb0033eebd2"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sde",
-    "wwn_vendor_extension": "0x2162bfb0033f0790",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb0033f0790",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb0033f0790"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdf",
-    "wwn_vendor_extension": "0x2162bfb0033f4f1a",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb0033f4f1a",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb0033f4f1a"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdg",
-    "wwn_vendor_extension": "0x2162bfb0033f6b3d",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb0033f6b3d",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb0033f6b3d"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdh",
-    "wwn_vendor_extension": "0x2162bfb0033f86e7",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb0033f86e7",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb0033f86e7"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdi",
-    "wwn_vendor_extension": "0x2162bfb0033fa313",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb0033fa313",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb0033fa313"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdj",
-    "wwn_vendor_extension": "0x2162bfb0033fe1cb",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb0033fe1cb",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb0033fe1cb"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdk",
-    "wwn_vendor_extension": "0x2162bfb0033ffcde",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb0033ffcde",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb0033ffcde"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdl",
-    "wwn_vendor_extension": "0x2162bfb003401883",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb003401883",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb003401883"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdm",
-    "wwn_vendor_extension": "0x2162bfb003403392",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb003403392",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb003403392"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdn",
-    "wwn_vendor_extension": "0x2162bfb003404f3e",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb003404f3e",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb003404f3e"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdo",
-    "wwn_vendor_extension": "0x2162bfb003408276",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb003408276",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb003408276"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdp",
-    "wwn_vendor_extension": "0x2162bfb00340cfc8",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb00340cfc8",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb00340cfc8"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdq",
-    "wwn_vendor_extension": "0x2162bfb00340ec4a",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb00340ec4a",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb00340ec4a"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdr",
-    "wwn_vendor_extension": "0x2162bfb003410846",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb003410846",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb003410846"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sds",
-    "wwn_vendor_extension": "0x2162bfb003415f08",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb003415f08",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb003415f08"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdt",
-    "wwn_vendor_extension": "0x2162bfb0034196dc",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb0034196dc",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb0034196dc"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdu",
-    "wwn_vendor_extension": "0x2162bfb00341c31b",
-    "wwn_with_extension": "0x61866da075b8d1002162bfb00341c31b",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b8d100",
-    "serial": "61866da075b8d1002162bfb00341c31b"
-  },
-  {
-    "size": 64023257088,
+    "size": 800166076416,
     "rotational": false,
-    "vendor": "ATA",
+    "vendor": "TOSHIBA",
+    "name": "/dev/sda",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x500003972c89131d",
+    "model": "PX04SMB080",
+    "wwn": "0x500003972c89131d",
+    "serial": "500003972c89131d"
+  },
+  {
+    "size": 800166076416,
+    "rotational": false,
+    "vendor": "TOSHIBA",
+    "name": "/dev/sdb",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x500003972c891345",
+    "model": "PX04SMB080",
+    "wwn": "0x500003972c891345",
+    "serial": "500003972c891345"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdc",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019bc80",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019bc80",
+    "serial": "5000cca08019bc80"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdd",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019d84c",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019d84c",
+    "serial": "5000cca08019d84c"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sde",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019ce38",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019ce38",
+    "serial": "5000cca08019ce38"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdf",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801940fc",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801940fc",
+    "serial": "5000cca0801940fc"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdg",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0800ba168",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0800ba168",
+    "serial": "5000cca0800ba168"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdh",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019cddc",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019cddc",
+    "serial": "5000cca08019cddc"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdi",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019ab04",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019ab04",
+    "serial": "5000cca08019ab04"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdj",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019c988",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019c988",
+    "serial": "5000cca08019c988"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdk",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019d930",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019d930",
+    "serial": "5000cca08019d930"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdl",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019cbc8",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019cbc8",
+    "serial": "5000cca08019cbc8"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdm",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019cae0",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019cae0",
+    "serial": "5000cca08019cae0"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdn",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019a468",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019a468",
+    "serial": "5000cca08019a468"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdo",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019aa94",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019aa94",
+    "serial": "5000cca08019aa94"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdp",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801948a0",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801948a0",
+    "serial": "5000cca0801948a0"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdq",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019c5bc",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019c5bc",
+    "serial": "5000cca08019c5bc"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdr",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a1048",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a1048",
+    "serial": "5000cca0801a1048"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sds",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0800b9f40",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0800b9f40",
+    "serial": "5000cca0800b9f40"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdt",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019c1e4",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019c1e4",
+    "serial": "5000cca08019c1e4"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdu",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019a39c",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019a39c",
+    "serial": "5000cca08019a39c"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
     "name": "/dev/sdv",
     "wwn_vendor_extension": null,
-    "wwn_with_extension": null,
-    "model": "SATADOM-ML 3SE",
-    "wwn": null,
-    "serial": "20160712AA11781143AA"
+    "wwn_with_extension": "0x5000cca08019d348",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019d348",
+    "serial": "5000cca08019d348"
+  },
+  {
+    "size": 966367641600,
+    "rotational": true,
+    "vendor": "DELL",
+    "name": "/dev/sdw",
+    "wwn_vendor_extension": "0x21e0e9156e51f9ae",
+    "wwn_with_extension": "0x61866da075b7ca0021e0e9156e51f9ae",
+    "model": "PERC H730 Mini",
+    "wwn": "0x61866da075b7ca00",
+    "serial": "61866da075b7ca0021e0e9156e51f9ae"
   }
 ]
 ---------------------------
-NODE: Hcomp05
+NODE: comp05
 ============================
 [
   {
-    "size": 1099511627776,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sda",
-    "wwn_vendor_extension": "0x21de2fd307242b2e",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fd307242b2e",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fd307242b2e"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdb",
-    "wwn_vendor_extension": "0x21de2fe107f3c3e8",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f3c3e8",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f3c3e8"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdc",
-    "wwn_vendor_extension": "0x21de2fe107f3dfbe",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f3dfbe",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f3dfbe"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdd",
-    "wwn_vendor_extension": "0x21de2fe107f3fba6",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f3fba6",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f3fba6"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sde",
-    "wwn_vendor_extension": "0x21de2fe107f41788",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f41788",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f41788"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdf",
-    "wwn_vendor_extension": "0x21de2fe107f43318",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f43318",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f43318"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdg",
-    "wwn_vendor_extension": "0x21de2fe107f44f4a",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f44f4a",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f44f4a"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdh",
-    "wwn_vendor_extension": "0x21de2fe107f46af3",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f46af3",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f46af3"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdi",
-    "wwn_vendor_extension": "0x21de2fe107f48685",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f48685",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f48685"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdj",
-    "wwn_vendor_extension": "0x21de2fe107f4b61b",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f4b61b",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f4b61b"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdk",
-    "wwn_vendor_extension": "0x21de2fe107f4d1d2",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f4d1d2",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f4d1d2"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdl",
-    "wwn_vendor_extension": "0x21de2fe107f4ee18",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f4ee18",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f4ee18"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdm",
-    "wwn_vendor_extension": "0x21de2fe107f509df",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f509df",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f509df"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdn",
-    "wwn_vendor_extension": "0x21de2fe107f52625",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f52625",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f52625"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdo",
-    "wwn_vendor_extension": "0x21de2fe107f555ec",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f555ec",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f555ec"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdp",
-    "wwn_vendor_extension": "0x21de2fe107f57204",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f57204",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f57204"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdq",
-    "wwn_vendor_extension": "0x21de2fe107f58d2d",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f58d2d",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f58d2d"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdr",
-    "wwn_vendor_extension": "0x21de2fe107f5bd99",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f5bd99",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f5bd99"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sds",
-    "wwn_vendor_extension": "0x21de2fe107f5edd0",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f5edd0",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f5edd0"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdt",
-    "wwn_vendor_extension": "0x21de2fe107f621a4",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f621a4",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f621a4"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdu",
-    "wwn_vendor_extension": "0x21de2fe107f65a67",
-    "wwn_with_extension": "0x61866da075b7ca0021de2fe107f65a67",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7ca00",
-    "serial": "61866da075b7ca0021de2fe107f65a67"
-  },
-  {
-    "size": 64023257088,
+    "size": 800166076416,
     "rotational": false,
-    "vendor": "ATA",
+    "vendor": "TOSHIBA",
+    "name": "/dev/sda",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x500003972c891341",
+    "model": "PX04SMB080",
+    "wwn": "0x500003972c891341",
+    "serial": "500003972c891341"
+  },
+  {
+    "size": 800166076416,
+    "rotational": false,
+    "vendor": "TOSHIBA",
+    "name": "/dev/sdb",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x500003972c891321",
+    "model": "PX04SMB080",
+    "wwn": "0x500003972c891321",
+    "serial": "500003972c891321"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdc",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a200c",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a200c",
+    "serial": "5000cca0801a200c"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdd",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca080199000",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca080199000",
+    "serial": "5000cca080199000"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sde",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019cd90",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019cd90",
+    "serial": "5000cca08019cd90"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdf",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a1bf4",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a1bf4",
+    "serial": "5000cca0801a1bf4"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdg",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a1228",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a1228",
+    "serial": "5000cca0801a1228"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdh",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a10fc",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a10fc",
+    "serial": "5000cca0801a10fc"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdi",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019bca0",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019bca0",
+    "serial": "5000cca08019bca0"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdj",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a15dc",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a15dc",
+    "serial": "5000cca0801a15dc"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdk",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a1244",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a1244",
+    "serial": "5000cca0801a1244"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdl",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a1bc8",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a1bc8",
+    "serial": "5000cca0801a1bc8"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdm",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a0fe0",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a0fe0",
+    "serial": "5000cca0801a0fe0"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdn",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a123c",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a123c",
+    "serial": "5000cca0801a123c"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdo",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a15e4",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a15e4",
+    "serial": "5000cca0801a15e4"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdp",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0800ef2d8",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0800ef2d8",
+    "serial": "5000cca0800ef2d8"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdq",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0800bb178",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0800bb178",
+    "serial": "5000cca0800bb178"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdr",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019dddc",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019dddc",
+    "serial": "5000cca08019dddc"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sds",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a1c74",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a1c74",
+    "serial": "5000cca0801a1c74"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdt",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019cacc",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019cacc",
+    "serial": "5000cca08019cacc"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdu",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019d0c8",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019d0c8",
+    "serial": "5000cca08019d0c8"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
     "name": "/dev/sdv",
     "wwn_vendor_extension": null,
-    "wwn_with_extension": null,
-    "model": "SATADOM-ML 3SE",
-    "wwn": null,
-    "serial": "20160712AA117811439A"
+    "wwn_with_extension": "0x5000cca08019f224",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019f224",
+    "serial": "5000cca08019f224"
+  },
+  {
+    "size": 966367641600,
+    "rotational": true,
+    "vendor": "DELL",
+    "name": "/dev/sdw",
+    "wwn_vendor_extension": "0x21e0eadb78ceb067",
+    "wwn_with_extension": "0x61866da075b7c30021e0eadb78ceb067",
+    "model": "PERC H730 Mini",
+    "wwn": "0x61866da075b7c300",
+    "serial": "61866da075b7c30021e0eadb78ceb067"
   }
 ]
 ---------------------------
-NODE: Hcomp06
+NODE: comp06
 ============================
 [
   {
-    "size": 1099511627776,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sda",
-    "wwn_vendor_extension": "0x21de31c70f8c15fd",
-    "wwn_with_extension": "0x61866da075b7c30021de31c70f8c15fd",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31c70f8c15fd"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdb",
-    "wwn_vendor_extension": "0x21de31d31040ae72",
-    "wwn_with_extension": "0x61866da075b7c30021de31d31040ae72",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d31040ae72"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdc",
-    "wwn_vendor_extension": "0x21de31d31040ca4b",
-    "wwn_with_extension": "0x61866da075b7c30021de31d31040ca4b",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d31040ca4b"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdd",
-    "wwn_vendor_extension": "0x21de31d310410fed",
-    "wwn_with_extension": "0x61866da075b7c30021de31d310410fed",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d310410fed"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sde",
-    "wwn_vendor_extension": "0x21de31d310412c41",
-    "wwn_with_extension": "0x61866da075b7c30021de31d310412c41",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d310412c41"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdf",
-    "wwn_vendor_extension": "0x21de31d31041741b",
-    "wwn_with_extension": "0x61866da075b7c30021de31d31041741b",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d31041741b"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdg",
-    "wwn_vendor_extension": "0x21de31d310419077",
-    "wwn_with_extension": "0x61866da075b7c30021de31d310419077",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d310419077"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdh",
-    "wwn_vendor_extension": "0x21de31d31041abe8",
-    "wwn_with_extension": "0x61866da075b7c30021de31d31041abe8",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d31041abe8"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdi",
-    "wwn_vendor_extension": "0x21de31d31041c7c8",
-    "wwn_with_extension": "0x61866da075b7c30021de31d31041c7c8",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d31041c7c8"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdj",
-    "wwn_vendor_extension": "0x21de31d310420088",
-    "wwn_with_extension": "0x61866da075b7c30021de31d310420088",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d310420088"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdk",
-    "wwn_vendor_extension": "0x21de31d310421c7e",
-    "wwn_with_extension": "0x61866da075b7c30021de31d310421c7e",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d310421c7e"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdl",
-    "wwn_vendor_extension": "0x21de31d3104238cc",
-    "wwn_with_extension": "0x61866da075b7c30021de31d3104238cc",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d3104238cc"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdm",
-    "wwn_vendor_extension": "0x21de31d3104254e8",
-    "wwn_with_extension": "0x61866da075b7c30021de31d3104254e8",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d3104254e8"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdn",
-    "wwn_vendor_extension": "0x21de31d310428907",
-    "wwn_with_extension": "0x61866da075b7c30021de31d310428907",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d310428907"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdo",
-    "wwn_vendor_extension": "0x21de31d31042afa9",
-    "wwn_with_extension": "0x61866da075b7c30021de31d31042afa9",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d31042afa9"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdp",
-    "wwn_vendor_extension": "0x21de31d31042cba4",
-    "wwn_with_extension": "0x61866da075b7c30021de31d31042cba4",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d31042cba4"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdq",
-    "wwn_vendor_extension": "0x21de31d31042e6b0",
-    "wwn_with_extension": "0x61866da075b7c30021de31d31042e6b0",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d31042e6b0"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdr",
-    "wwn_vendor_extension": "0x21de31d31043024e",
-    "wwn_with_extension": "0x61866da075b7c30021de31d31043024e",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d31043024e"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sds",
-    "wwn_vendor_extension": "0x21de31d310433af2",
-    "wwn_with_extension": "0x61866da075b7c30021de31d310433af2",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d310433af2"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdt",
-    "wwn_vendor_extension": "0x21de31d310438438",
-    "wwn_with_extension": "0x61866da075b7c30021de31d310438438",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d310438438"
-  },
-  {
-    "size": 1199638052864,
-    "rotational": true,
-    "vendor": "DELL",
-    "name": "/dev/sdu",
-    "wwn_vendor_extension": "0x21de31d31043b346",
-    "wwn_with_extension": "0x61866da075b7c30021de31d31043b346",
-    "model": "PERC H730 Mini",
-    "wwn": "0x61866da075b7c300",
-    "serial": "61866da075b7c30021de31d31043b346"
-  },
-  {
-    "size": 64023257088,
+    "size": 800166076416,
     "rotational": false,
-    "vendor": "ATA",
-    "name": "/dev/sdv",
+    "vendor": "TOSHIBA",
+    "name": "/dev/sda",
     "wwn_vendor_extension": null,
-    "wwn_with_extension": null,
-    "model": "SATADOM-ML 3SE",
-    "wwn": null,
-    "serial": "20160712AA11781143A8"
-  }
-]
----------------------------
-NODE: Hcomp07
-============================
-[
+    "wwn_with_extension": "0x500003972c89134d",
+    "model": "PX04SMB080",
+    "wwn": "0x500003972c89134d",
+    "serial": "500003972c89134d"
+  },
   {
-    "size": 1099511627776,
+    "size": 800166076416,
+    "rotational": false,
+    "vendor": "TOSHIBA",
+    "name": "/dev/sdb",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x500003972c891325",
+    "model": "PX04SMB080",
+    "wwn": "0x500003972c891325",
+    "serial": "500003972c891325"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdc",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019d2f0",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019d2f0",
+    "serial": "5000cca08019d2f0"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdd",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019a1e0",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019a1e0",
+    "serial": "5000cca08019a1e0"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sde",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019a298",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019a298",
+    "serial": "5000cca08019a298"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdf",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019a8e8",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019a8e8",
+    "serial": "5000cca08019a8e8"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdg",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019dea8",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019dea8",
+    "serial": "5000cca08019dea8"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdh",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019bac4",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019bac4",
+    "serial": "5000cca08019bac4"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdi",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019a730",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019a730",
+    "serial": "5000cca08019a730"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdj",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019ac94",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019ac94",
+    "serial": "5000cca08019ac94"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdk",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a2178",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a2178",
+    "serial": "5000cca0801a2178"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdl",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca080194198",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca080194198",
+    "serial": "5000cca080194198"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdm",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca080198bbc",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca080198bbc",
+    "serial": "5000cca080198bbc"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdn",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019dc04",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019dc04",
+    "serial": "5000cca08019dc04"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdo",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019ce00",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019ce00",
+    "serial": "5000cca08019ce00"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdp",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019ba10",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019ba10",
+    "serial": "5000cca08019ba10"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdq",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019cd88",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019cd88",
+    "serial": "5000cca08019cd88"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdr",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019d8fc",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019d8fc",
+    "serial": "5000cca08019d8fc"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sds",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0801a1bb0",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0801a1bb0",
+    "serial": "5000cca0801a1bb0"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdt",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca08019cc9c",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca08019cc9c",
+    "serial": "5000cca08019cc9c"
+  },
+  {
+    "size": 1200243695616,
+    "rotational": true,
+    "vendor": "HGST",
+    "name": "/dev/sdu",
+    "wwn_vendor_extension": null,
+    "wwn_with_extension": "0x5000cca0800ba174",
+    "model": "HUC101812CSS204",
+    "wwn": "0x5000cca0800ba174",
+    "serial": "5000cca0800ba174"
+  },
+  {
+    "size": 966367641600,
     "rotational": true,
     "vendor": "DELL",
-    "name": "/dev/sda",
-    "wwn_vendor_extension": "0x21de2f9219a69e4d",
-    "wwn_with_extension": "0x61866da075b7c40021de2f9219a69e4d",
+    "name": "/dev/sdv",
+    "wwn_vendor_extension": "0x21e0e2a12abe3d94",
+    "wwn_with_extension": "0x61866da075b7c40021e0e2a12abe3d94",
     "model": "PERC H730 Mini",
     "wwn": "0x61866da075b7c400",
-    "serial": "61866da075b7c40021de2f9219a69e4d"
-  },
-  {
-    "size": 64023257088,
-    "rotational": false,
-    "vendor": "ATA",
-    "name": "/dev/sdb",
-    "wwn_vendor_extension": null,
-    "wwn_with_extension": null,
-    "model": "SATADOM-ML 3SE",
-    "wwn": null,
-    "serial": "20160712AA117815562F"
+    "serial": "61866da075b7c40021e0e2a12abe3d94"
   }
 ]
 ---------------------------

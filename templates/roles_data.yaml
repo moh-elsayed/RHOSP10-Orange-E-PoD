@@ -129,7 +129,7 @@
 ## Modified the NoveCompute Service to NoveCephCompute to the pinning info
 - name: CephCompute
   #CountDefault: 1
-  HostnameFormatDefault: '%stackname%-compute-ceph-%index%'
+  HostnameFormatDefault: '%stackname%-ceph-compute-%index%'
   ServicesDefault:
     - OS::TripleO::Services::CACerts
     - OS::TripleO::Services::CephClient

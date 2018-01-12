@@ -3,9 +3,9 @@ parameter_defaults:
   OvercloudComputeFlavor: compute
   OvercloudCephComputeFlavor: ceph-compute
   ControllerCount: 3
-  ComputeCount: 0
-  CephComputeCount: 7
+  ComputeCount: 4
+  CephComputeCount: 3
   ControllerHostnameFormat: '%stackname%-controller-%index%'
   ComputeHostnameFormat: '%stackname%-compute-%index%'
-  CephComputeHostnameFormat: '%stackname%-compute-ceph-%index%'
+  CephComputeHostnameFormat: '%stackname%-ceph-compute-%index%'
   NtpServer: 192.0.2.3
